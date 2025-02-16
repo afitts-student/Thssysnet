@@ -1,15 +1,16 @@
 {
-  "name": "Thssysnet",
+  "name": "Thssysnet.pw",
   "short_name": "Thssysnet",
-  "icons": [
-    {
-      "src": "images/thssysnet2.ico",
-      "sizes": "500x500",
-      "type": "image/ico"
-    }
-  ],
+  "description": "Home of Thssysnet Services",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff"
+  "background_color": "#f4f4f9",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "thssysnet2.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
 }
