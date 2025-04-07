@@ -5,13 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>THSSYSNET IS BACK</title>
   <link rel="icon" href="thssysnet.ico" type="image/x-icon">
-  
-  <!-- Google Fonts: Instrument Sans and Instrument Serif -->
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&family=Instrument+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-  
-  <!-- External Stylesheet (for custom styles) -->
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&family=Instrument+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  
   <meta name="description" content="Home of Thssysnet Services offering important and niche services.">
   <meta name="keywords" content="Thssysnet, services, niche services, online services">
 </head>
@@ -24,7 +19,6 @@
     <a href="/about.html">About</a>
     <a href="https://lobbypi.com/">LobbyPi</a>
   </div>
-
   <header class="header" id="header">
     <button class="menu-btn" onclick="toggleSidebar()" aria-label="Open Menu" tabindex="0">Menu</button>
     <div class="logo">
@@ -32,15 +26,14 @@
         <img src="thssysnet-logo.png" alt="Thssysnet Logo" loading="lazy">
       </a>
     </div>
+    <div class="header-balance"></div>
   </header>
-
   <div class="content" id="content">
     <h1>THSSYSNET IS BACK</h1>
     <p class="intro-text">This is the home of Thssysnet Services, where you can find important, niche, services on one page!</p>
     <p class="intro-text">Check in occasionally to see additional services from Thssysnet.</p>
     <a href="services.html" class="button">Check Out Our Services</a>
   </div>
-
   <footer class="footer" id="footer">
     <div class="footer-content">
       <p>&copy; 2025 Thssysnet. All Rights Reserved.</p>
@@ -51,7 +44,6 @@
       </div>
     </div>
   </footer>
-
   <script>
     window.addEventListener('scroll', function() {
       let header = document.getElementById('header');
@@ -64,7 +56,6 @@
         footer.classList.remove('shrink');
       }
     });
-
     function toggleSidebar() {
       let sidebar = document.getElementById('sidebar');
       let content = document.getElementById('content');
